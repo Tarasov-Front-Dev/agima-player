@@ -1,0 +1,25 @@
+.audio-player {
+  width: 532px;
+  height: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  border: 1px solid gray;
+
+  &__buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+  }
+}
+
+.song {
+  width: 320px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+button {
+  cursor: pointer;
+}
